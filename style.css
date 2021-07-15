@@ -80,6 +80,10 @@ button:hover{
     opacity: 1;
 }
 
+#remT{
+    cursor: pointer;
+}
+
 .sr-only{
     position: absolute;
     width: 1px;
@@ -216,7 +220,7 @@ td.expense{
     background: #ecf0f1;
     padding: 2.4rem;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 /* FORM */
@@ -233,6 +237,7 @@ input{
     border-radius: .2rem;
     padding: .8rem;
     width: 100%;
+    outline: none;
 }
 
 .input-group{
@@ -252,14 +257,6 @@ input{
 .input-group.actions .button,
 .input-group.actions button{
     width: 48%;
-}
-
-/* FOOTER */
-footer{
-    text-align: center;
-    padding: 4rem 0 2rem;
-    color: var(--wet-asphalt);
-    opacity: .6;
 }
 
 
